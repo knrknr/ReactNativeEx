@@ -19,7 +19,7 @@ export default class Main extends Component{
             {name: "park", message: "Hello ff", img: require('./Image/hubble.jpg')},
             {name: "choi", message: "Hello gg", img: require('./Image/hubble.jpg')},
             {name: "tom", message: "Hello hh", img: require('./Image/hubble.jpg')},
-            {name: "jessi", message: "Hello ii", img: {uri:'https://cdn.pixabay.com/photo/2016/01/11/22/38/animal-1134504_1280.jpg'}},
+            {name: "jessi", message: "Hello ii", img: {uri:'인터넷 이미지 주소'}},
         ]
     }
 
