@@ -14,7 +14,7 @@ import { launchCamera, launchImageLibrary  } from 'react-native-image-picker'
 export default class Main extends Component{
 
     state={
-        img: {uri:"https://cdn.pixabay.com/photo/2016/01/11/22/38/animal-1134504_1280.jpg"},//내 프로젝트 안에 있는 폴더가 아니면 다 ㅕ갸
+        img: {uri:"인터넷 이미지 주소"},
     }
 
     render(){
