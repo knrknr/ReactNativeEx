@@ -14,9 +14,9 @@ export default class MainComponent extends Component{
             require('./Image/hubble.jpg'),
             require('./Image/PIA03149_ip.jpg'),
             //네트워크상에 있는 이미지는
-            {uri:'https://cdn.pixabay.com/photo/2017/10/10/07/48/beach-2836300_1280.jpg'},
-            {uri:'https://cdn.pixabay.com/photo/2018/08/16/08/39/hallstatt-3609863_1280.jpg'},
-            {uri:'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg'},
+            {uri:'인터넷 이미지 주소'},
+            {uri:'인터넷 이미지 주소'},
+            {uri:'인터넷 이미지 주소'},
                 
         
         ]//리터럴 배열
@@ -31,7 +31,7 @@ export default class MainComponent extends Component{
                 <ImageBackground
                     style={{width:'100%', height:'100%', flexDirection:'column'}}
                     resizeMode="stretch"
-                    source={{uri:'https://cdn.pixabay.com/photo/2016/03/04/19/36/beach-1236581_1280.jpg'}}>
+                    source={{uri:'인터넷 이미지 주소'}}>
 
                     {/* 이미지는 require() 함수 사용 : 별도의 스타일이 없다면 기본 원본 사이즈 */}
                     <Image 
@@ -43,7 +43,7 @@ export default class MainComponent extends Component{
                     {/* 네트워크 이미지는 사이즈 지정이 없으면 보이지 않음 */}
                     <Image 
                         style={{width:200, height:100}}
-                        source={{uri:'https://cdn.pixabay.com/photo/2017/10/10/07/48/beach-2836300_1280.jpg'}}>
+                        source={{uri:'인터넷 이미지 주소'}}>
 
                     </Image>
 
